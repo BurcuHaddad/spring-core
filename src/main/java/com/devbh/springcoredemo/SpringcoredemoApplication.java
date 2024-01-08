@@ -3,6 +3,9 @@ package com.devbh.springcoredemo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/*@SpringBootApplication(
+		scanBasePackages = {"com.devbh.springcoredemo", "com.devbh.util"}
+)*/
 @SpringBootApplication
 public class SpringcoredemoApplication {
 
